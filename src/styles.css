@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.light-container {
+  width: 80px;
+  height: 300px;
+  border: 1px solid black;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.light {
+  background: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
